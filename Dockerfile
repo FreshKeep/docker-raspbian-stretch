@@ -5,4 +5,4 @@ ADD raspbian.image.tar.xz /
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update
+RUN mkimage-raspbian.sh
