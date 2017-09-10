@@ -1,5 +1,5 @@
-FROM scratch
+FROM arm32v7/debian:stretch
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN mkimage-raspbian.sh
+RUN apt-get update
